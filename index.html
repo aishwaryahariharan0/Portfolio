@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aishwarya H — Backend Developer specializing in Python, FastAPI, Flask, and SQL Server. Based in Neivasal, Tamil Nadu.">
+  <title>Aishwarya H — Backend Developer</title>
+  <link rel="icon" href="assets/portrait.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="site-header" id="top">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="Aishwarya H, back to top">AH</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span class="bar" aria-hidden="true"></span>
+        <span class="bar" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/portrait.png" aria-hidden="true">
+        <source src="assets/hero1.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-content reveal">
+        <!--<p class="id-card-name">Backend Developer</p>-->
+        <h1 id="hero-title">Hi!  I am Aishwarya  </h1>
+        <h1 id="hero-title">Welcome to My Portfolio </h1>
+        <p class="hero-lead">
+          Swipe Below to Know more about me and my work. 
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="assets/Aishwarya-H-Resume.pdf" download>Download Resume</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT / ID CARD ===== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="id-card reveal">
+          <div class="id-card-photo">
+            <img src="assets/portrait.jpg" alt="Portrait of Aishwarya H in a navy blazer" width="821" height="1024" loading="lazy">
+          </div>
+          <div class="id-card-body">
+            <p class="id-card-label">Python Backend Developer</p>
+            <p class="id-card-name">Aishwarya H</p>
+            <dl class="id-card-meta">
+              <div><dt>Location</dt><dd>Neivasal, Tamil Nadu</dd></div>
+              <div><dt>Education</dt><dd>B.E. Computer Science, 2026</dd></div>
+              <div><dt>Languages</dt><dd>English, Tamil</dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="about-text reveal">
+          <h2 id="about-title" class="section-title">About Me</h2>
+          <p>
+            I build backend services with Python, FastAPI, and Flask, with a focus on secure data access,
+            clean REST API design, and AI-powered retrieval systems. My work spans role-based access control,
+            RAG pipelines, LLM integration, and computer vision.
+          </p>
+          <p>
+            Most recently I interned as a Software Developer at Probytes Solutions, where I contributed to an
+            ASP.NET Web Forms HR Management System backed by SQL Server.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section section-alt" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <h2 id="experience-title" class="section-title reveal">Experience</h2>
+
+        <article class="timeline-item reveal">
+          <header class="timeline-head">
+            <div>
+              <h3>Software Developer Intern</h3>
+              <p class="org">Probytes Solutions</p>
+            </div>
+            <p class="dates">February 2026 – September 2026</p>
+          </header>
+
+          <div class="sub-project">
+            <h4>Worker Management System <span class="tech">ASP.NET Web Forms · VB.NET · SQL Server</span></h4>
+            <p class="dates-small">May 2026 – June 2026</p>
+            <ul>
+              <li>Developed a role-based employee management system using ASP.NET Web Forms, VB.NET, and SQL Server, supporting 500+ employee records.</li>
+              <li>Implemented RBAC for Admin, HR, and Manager roles to enforce secure access to employee data and application features.</li>
+            </ul>
+          </div>
+
+          <div class="sub-project">
+            <h4>Roles &amp; Responsibilities</h4>
+            <ul>
+              <li>Contributed to the HR Management System using ASP.NET Web Forms, VB.NET, and SQL Server, supporting employee data management, role-based access, and application workflows.</li>
+              <li>Developed and maintained modules for worker management, search and filtering, bulk data import, user access, company settings, and expiry tracking, while troubleshooting application issues.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title" class="section-title reveal">Projects</h2>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <p class="project-meta">September 2026 – Present</p>
+            <h3>PolicyRAG — Policy Q&amp;A System</h3>
+            <p class="tech-line">Python · FastAPI · RAG · LLM · SQL</p>
+            <ul>
+              <li>Built a permission-aware RAG pipeline with FastAPI for Q&amp;A across 15+ policy documents.</li>
+              <li>Implemented chunking, embeddings, semantic retrieval, and reranking, achieving 90%+ retrieval precision.</li>
+              <li>Designed citation-grounded responses linking answers to source passages for traceability.</li>
+              <li>Implemented RBAC and document-level access control, passing 100% of access-control tests.</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="project-meta">March 2026 – May 2026</p>
+            <h3>Palm Fruit Ripeness Detection</h3>
+            <p class="tech-line">Python · YOLOv8 · Flask · OpenCV · MySQL</p>
+            <ul>
+              <li>Developed a YOLOv8 palm fruit ripeness detector achieving 90%+ precision.</li>
+              <li>Fine-tuned YOLOv8 on 3,000+ labeled images across 3 ripeness classes.</li>
+              <li>Built a Flask app for image and video inference, processing streams at up to 10 FPS.</li>
+              <li>Integrated OpenCV and MySQL for video processing and storing predicted images and videos.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title" class="section-title reveal">Technical Skills</h2>
+        <div class="skills-grid reveal">
+          <div class="skill-group">
+            <h3>Programming Languages</h3>
+            <ul class="chips">
+              <li>Python</li><li>SQL</li><li>VB.NET</li><li>HTML</li><li>CSS</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Backend &amp; Web</h3>
+            <ul class="chips">
+              <li>FastAPI</li><li>Flask</li><li>ASP.NET Web Forms</li><li>REST API Design</li><li>RBAC</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>AI &amp; Generative AI</h3>
+            <ul class="chips">
+              <li>RAG</li><li>LLM Integration</li><li>Embeddings</li><li>Semantic Retrieval</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Machine &amp; Deep Learning</h3>
+            <ul class="chips">
+              <li>YOLOv8</li><li>Object Detection</li><li>Computer Vision</li><li>OpenCV</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Databases</h3>
+            <ul class="chips">
+              <li>SQL Server</li><li>MySQL</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <ul class="chips">
+              <li>Git</li><li>GitHub</li><li>Visual Studio</li><li>VS Code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <h2 id="education-title" class="section-title reveal">Education</h2>
+        <ol class="edu-list">
+          <li class="reveal">
+            <div class="timeline-head">
+              <div>
+                <h3>Bachelor of Engineering in Computer Science</h3>
+                <p class="org">Shanmuganathan Engineering College, Pudukottai, Tamil Nadu</p>
+              </div>
+              <p class="dates">2022 – 2026 · CGPA 8.2</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <div class="timeline-head">
+              <div>
+                <h3>Higher Secondary (HSC)</h3>
+                <p class="org">The Leader Matric Higher Secondary School, Karaikudi, Tamil Nadu</p>
+              </div>
+              <p class="dates">2020 – 2022 · CGPA 8.3</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS (placeholder, hidden until real data is provided) ===== -->
+    <!-- CERTIFICATIONS — TO BE ADDED LATER. DO NOT DISPLAY UNTIL REAL DATA IS PROVIDED. -->
+
+    <!-- ===== ACHIEVEMENTS (placeholder, hidden until real data is provided) ===== -->
+    <!-- ACHIEVEMENTS — TO BE ADDED LATER. DO NOT DISPLAY UNTIL REAL DATA IS PROVIDED. -->
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <h2 id="contact-title" class="section-title">Contact</h2>
+          <p class="contact-lead">Open to  backend and software development roles. The best way to reach me is by email.</p>
+          <p class="location">Neivasal, Tamil Nadu, India</p>
+        </div>
+
+        <ul class="contact-list reveal">
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:aishwaryahariharan0@gmail.com">aishwaryahariharan0@gmail.com</a>
+            <button class="copy-btn" type="button" data-copy="aishwaryahariharan0@gmail.com" aria-label="Copy email address">Copy</button>
+          </li>
+          <li>
+            <span class="contact-label">Phone</span>
+            <a href="tel:+916269930620">+91 6269930620</a>
+          </li>
+          <li>
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/aishwaryahariharan0" target="_blank" rel="noopener noreferrer">github.com/aishwaryahariharan0</a>
+          </li>
+          <li>
+            <span class="contact-label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/aishwarya-1907-h/" target="_blank" rel="noopener noreferrer">linkedin.com/in/aishwarya-1907-h</a>
+          </li>
+          <li>
+            <span class="contact-label">Resume</span>
+            <a href="assets/Aishwarya-H-Resume.pdf" download>Download PDF</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO LINK — TO BE ADDED AFTER PORTFOLIO IS CREATED -->
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Aishwarya H</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
